@@ -66,7 +66,7 @@
 
 | Nivel | Descripción |
 |-------|------------|
-| **Excelente (9–10)** | Prefab superpuesto sobre la cara correctamente alineado, estable y **claramente integrado con la temática del juego**. Uso correcto del face anchor. |
+| **Excelente (9–10)** | Prefab superpuesto sobre la cara correctamente alineado, estable y **claramente integrado con la temática del juego**. |
 | **Notable (7–8)** | Prefab correctamente superpuesto, aunque con integración visual mejorable. |
 | **Aprobado (5–6)** | Prefab presente pero mal ajustado o poco coherente visualmente. |
 | **Insuficiente (0–4)** | No se ha integrado ningún prefab en la cara del jugador o funciona incorrectamente. |
