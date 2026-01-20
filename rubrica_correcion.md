@@ -91,10 +91,8 @@
 Se valorará positivamente la inclusión de:
 - Sonido y música.
 - Efectos visuales (partículas, feedback visual).
-- Power-ups.
 - Dificultad progresiva avanzada.
 - Estética y temática cuidada.
-- Mejoras de accesibilidad o comodidad del usuario.
 
 | Nivel | Descripción |
 |------|------------|
