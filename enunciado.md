@@ -1,7 +1,7 @@
-# 📱 Proyecto Final – Face Runner (Unity + AR Foundation)
+# 📱 Face Runner (Unity + AR Foundation)
 
 ## 🎯 Objetivo del proyecto
-Desarrollar un **juego de tipo Endless Runner** en **Realidad Aumentada** utilizando **Unity y AR Foundation**, en el que el jugador controle al personaje **mediante los movimientos de su cara**, haciendo uso de **face tracking** con la cámara frontal del dispositivo.
+Desarrollar un **juego de tipo Endless Runner** en **Realidad Aumentada** utilizando **Unity y AR Foundation**, en el que el jugador controle al personaje **mediante los movimientos de su cara**, haciendo uso de **face tracking** con la cámara frontal del dispositivo. La temática del juego es libre.
 
 El objetivo del juego es **avanzar el mayor tiempo posible**, evitando enemigos y obstáculos, y recogiendo objetos que otorguen puntos.
 
@@ -23,14 +23,9 @@ El objetivo del juego es **avanzar el mayor tiempo posible**, evitando enemigos 
 El control del personaje se realiza exclusivamente mediante **movimientos faciales**, detectados mediante **AR Face Tracking**.
 
 ### Controles obligatorios
-- 👈 **Mover a la izquierda**: inclinación de la cabeza hacia la izquierda.
-- 👉 **Mover a la derecha**: inclinación de la cabeza hacia la derecha.
-- ⬆️ **Saltar**: gesto facial (a elegir por el alumno):
-  - Abrir la boca  
-  - Levantar las cejas  
-  - Parpadear ambos ojos  
-
-> 🔧 El gesto seleccionado para el salto debe justificarse y funcionar correctamente.
+- 👈 **Mover a la izquierda**: girar la cabeza hacia la izquierda.
+- 👉 **Mover a la derecha**: girar la cabeza hacia la derecha.
+- ⬆️ **Saltar**: mirar hacia arriba o abajo (a tu elección).
 
 ---
 
@@ -39,14 +34,14 @@ El control del personaje se realiza exclusivamente mediante **movimientos facial
 El personaje debe contar con:
 
 - Movimiento automático hacia delante.
-- Movimiento lateral limitado (izquierda / derecha).
+- Movimiento lateral limitado sin salir de la pista (izquierda / derecha).
 - Capacidad de salto.
 - Sistema de colisiones activo.
 
 ### Requisitos técnicos
-- Uso de `Rigidbody` y/o `CharacterController`.
 - Animaciones básicas (opcional pero recomendable).
 - Respuesta fluida a los gestos faciales.
+- La cara del jugador debe mostrar algún prefab superpuesto relacionado con la temática del juego.
 
 ---
 
@@ -88,7 +83,6 @@ El juego debe incluir:
 
 ### Opcional
 - Puntos por tiempo de supervivencia.
-- Sistema de récords (*High Score*).
 
 ---
 
@@ -103,6 +97,7 @@ La interfaz debe incluir como mínimo:
 ### Opcional
 - Pantalla de inicio.
 - Instrucciones breves sobre los gestos faciales.
+- Pequeño tutorial para aprender a controlar el juego con la cara.
 
 ---
 
@@ -111,8 +106,8 @@ La interfaz debe incluir como mínimo:
 - Proyecto desarrollado en **Unity**.
 - Uso de **AR Foundation**.
 - Uso de **AR Face Manager**.
-- Control del personaje mediante **datos de face tracking** (rotación de cabeza y/o *blend shapes*).
-- Proyecto funcional en un **dispositivo móvil compatible** (Android o iOS).
+- Control del personaje mediante **datos de face tracking** (rotación de cabeza).
+- Proyecto funcional en un **dispositivo móvil compatible** (Android).
 - Código organizado y comentado.
 
 ---
