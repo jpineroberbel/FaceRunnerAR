@@ -10,7 +10,7 @@
 ## 🧠 1. Sistema de Control mediante Face Tracking (15 puntos)
 
 | Nivel | Descripción |
-|-------|------------|
+|----------|------------|
 | **Excelente (14–15)** | Control facial preciso, estable y fluido. Giro de cabeza izquierda/derecha y gesto de salto correctamente detectados, con buena sensibilidad y calibración. |
 | **Notable (11–13)** | Face tracking funcional con ligeras imprecisiones ocasionales. |
 | **Aprobado (8–10)** | Control facial básico, con problemas de precisión o respuesta. |
